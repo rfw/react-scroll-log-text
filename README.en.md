@@ -1,7 +1,8 @@
+[![NPM](https://img.shields.io/npm/v/react-scroll-log-text.svg)](https://www.npmjs.com/package/react-scroll-log-text) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
 # react-scroll-log-text
 
-
-[![NPM](https://img.shields.io/npm/v/react-scroll-log-text.svg)](https://www.npmjs.com/package/react-scroll-log-text) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+> React js text scroll plug-in, push a new data, scroll once.
 
 <img src="example/demo.gif">
 

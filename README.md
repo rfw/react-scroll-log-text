@@ -1,8 +1,9 @@
+[![NPM](https://img.shields.io/npm/v/react-scroll-log-text.svg)](https://www.npmjs.com/package/react-scroll-log-text) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
 # react-scroll-log-text
 
-> react js 文字滚动插件
+> react js 文字滚动插件, push一条新数据，滚动一次。
 
-[![NPM](https://img.shields.io/npm/v/react-scroll-log-text.svg)](https://www.npmjs.com/package/react-scroll-log-text) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 <img src="example/demo.gif">
 

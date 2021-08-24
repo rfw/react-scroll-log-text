@@ -6,9 +6,6 @@
 
 [Document](README.en.md)
 
-<img src="example/demo.gif">
-![alt text](https://github.com/rfw/react-scroll-log-text/blob/main/example/demo.gif?raw=true)
-
 ## 安装
 
 ```bash
@@ -30,17 +27,13 @@ class Example extends Component {
 }
 ```
 
-## 参数
+## Props
 
-|字段|描述|类型|默认值|
-|---|---|---|---|
-| `data` | 数据 | Array or Object | [] |
-| `animateSpeed` | 动画滚动过渡时间，单位：秒 | Number | 1 |
-| `length` | 大于length条数据开始滚动 | Number | 5 |
-| `liStyle` | li标签的sytle (像素必须加单位px) | Object |  |
-| `childrenFc` | 自定义渲染item组件，如data为多个字段时 | function |  |
+Available props for component:
 
-举个例子：[example](example)
+|Name|Descr|Default|
+|---|---|---|
+| `speed` | Set the animation speed (0-100) | 100 |
 
 ## License
 

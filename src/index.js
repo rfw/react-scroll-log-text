@@ -6,7 +6,7 @@ export default class ScrollText extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      data: props.data,
+      data: props.data || [],
       marginTop: '0',
       animate: false
     }
@@ -69,7 +69,7 @@ export default class ScrollText extends React.Component {
         id={styles.scrollList}
         style={
           animate
-            ? { transition: ` margin ${animateSpeed || 1}s`, marginTop }
+            ? { transition: ` margin ${animateSpeed}s`, marginTop }
             : { marginTop }
         }
       >
@@ -89,4 +89,9 @@ ScrollText.propTypes = {
   liStyle: PropTypes.object, // 像素带单位 eg: 40px
   data: PropTypes.array.isRequired, // 数据
   childrenFc: PropTypes.func // 自定义渲染item
+}
+
+ScrollText.defaultProps = {
+  animateSpeed: 1,
+  length: 5
 }

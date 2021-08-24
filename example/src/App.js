@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-
+import './index.css';
 import ScrollText from 'react-scroll-log-text'
 import 'react-scroll-log-text/dist/index.css'
 
@@ -14,12 +14,14 @@ const App = () => {
 		}, 3000);
 	}, [])
 
-	return <ScrollText
-    data={data}
-    length={4}
-    liStyle={{lineHeight: '40px'}}
-    childrenFc={(v) => <div>={v}=</div>}
-  />
+	return <div className='demo-box'>
+    <ScrollText
+      data={data}
+      length={7}
+      liStyle={{lineHeight: '30px'}}
+      childrenFc={(v) => <div>This value is : {v}</div>}
+    />
+  </div>
 }
 
 export default App
